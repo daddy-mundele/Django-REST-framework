@@ -1,0 +1,7 @@
+from django.urls import path
+from . import views  # Importe as views do seu aplicativo
+
+urlpatterns = [
+    # Outros padrões de URL podem já estar aqui
+    path('user/', admin, name='user'),
+]
